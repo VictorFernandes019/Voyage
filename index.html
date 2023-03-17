@@ -151,7 +151,7 @@
           <h3>Tour guiados</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing sciunt deserunt, alias illo!</p>
         </div>
-        <button>Saiba mais</button>
+        <a href='https://www.guiasfalamportugues.com/?gclid=Cj0KCQjwn9CgBhDjARIsAD15h0B1VXaboR-PYulhRNkWGEMJajZnt5rb7ISzxjcPGFWRKv_9uRH9-6waAh93EALw_wcB'><button>Saiba mais</button></a>        
       </div>
 
       <div class="card">
@@ -160,8 +160,8 @@
           <h3>Fotográfia Profissional</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing sciunt deserunt, alias illo!</p>
         </div>
-        <button>Saiba mais</button>
-      </div>
+        <a href=''><button>Saiba mais</button></a> 
+           </div>
       
       <div class="card">
         <i data-feather="navigation"></i>
@@ -169,7 +169,7 @@
           <h3>Aluguel de Veículo</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing sciunt deserunt, alias illo!</p>
         </div>
-        <button>Saiba mais</button>
+        <a href='https://www.movida.com.br/?&&ds_rl=1286058&gclid=Cj0KCQjwn9CgBhDjARIsAD15h0AUz0uG5PJepG_bUGHSLDq1NmqUGjv7sd8ayfbyzcLb3l1vMbIgCAgaAmnYEALw_wcB&gclsrc=aw.ds'><button>Saiba mais</button></a>
       </div>
     </div>
   </section>
@@ -201,15 +201,12 @@
             });
         });
     });
-    // Initialize and add the map
+    // Iniciando o googleMaps
     function initMap() {
-      // The location of Uluru
-      // var uluru = {lat: -25.344, lng: 131.036};
-      var uluru = { lat: -3.71839, lng: -38.5434 };
-      // The map, centered at Uluru
+      
+      var uluru = { lat: -22.8637238, lng: -47.2136602 };
       var map = new google.maps.Map(
         document.getElementById('map'), { zoom: 4, center: uluru });
-      // The marker, positioned at Uluru
       var marker = new google.maps.Marker({ position: uluru, map: map });
     }
   </script>
