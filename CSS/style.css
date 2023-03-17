@@ -366,6 +366,15 @@ button {
     width: 100%;
     text-align: center;
   }
+  
+}
+video {
+	width: 100%;
+	max-width: 850px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+  border-radius: 10px;
 
   
 }
